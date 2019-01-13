@@ -18,7 +18,7 @@ return [
 		'id' => 'yii2module.yii2-guide.yii2',
 		'owner' => 'yii2module',
 		'name' => 'guide.yii2',
-		'dir' => 'vendor/yii2bundle/yii2-guide/guide/yii2/src/docs/guide-ru',
+		'dir' => 'vendor/yii2tool/yii2-guide/guide/yii2/src/docs/guide-ru',
 		'group' => 'misc',
 		'hide_on_null' => true,
 		'readonly' => true,
