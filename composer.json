@@ -1,0 +1,24 @@
+{
+	"name": "yii2tool/yii2-guide",
+	"type": "yii2-extension",
+	"keywords": ["yii2","module","guide"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Yamshikov Vitaliy",
+			"email": "theyamshikov@yandex.ru"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"yii2module\\guide\\": "src"
+		}
+	},
+	"require": {
+		"yiisoft/yii2": "*",
+		"yiisoft/yii2-apidoc": "~2.0.0",
+		"php": ">=5.3.0",
+		"yii2mod/yii2-markdown": "*"
+	}
+}
