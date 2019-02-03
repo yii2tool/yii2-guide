@@ -16,15 +16,7 @@ class Domain extends \yii2lab\domain\Domain {
 	public function config() {
 		return [
 			'repositories' => [
-				'project' => [
-					'driver' => Driver::FILE,
-					'owners' => [
-						'yii2bundle',
-						'yii2rails',
-						'yii2team',
-						'yii2tool',
-					],
-				],
+				'project' => Driver::FILE,
 				'article' => Driver::FILE,
 				'chapter' => Driver::FILE,
 			],
