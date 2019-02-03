@@ -2,8 +2,8 @@
 
 namespace yii2module\guide\domain;
 
-use yii2lab\domain\enums\Driver;
-use yii2lab\domain\services\base\BaseActiveService;
+use yii2rails\domain\enums\Driver;
+use yii2rails\domain\services\base\BaseActiveService;
 
 /**
  * Class Domain
@@ -11,7 +11,7 @@ use yii2lab\domain\services\base\BaseActiveService;
  * @package yii2module\guide\domain
  * @property-read \yii2module\guide\domain\interfaces\repositories\RepositoriesInterface $repositories
  */
-class Domain extends \yii2lab\domain\Domain {
+class Domain extends \yii2rails\domain\Domain {
 	
 	public function config() {
 		return [

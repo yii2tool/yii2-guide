@@ -4,8 +4,8 @@ namespace yii2module\guide\domain\services;
 
 use Yii;
 use yii\data\ArrayDataProvider;
-use yii2lab\domain\BaseEntity;
-use yii2lab\domain\services\base\BaseActiveService;
+use yii2rails\domain\BaseEntity;
+use yii2rails\domain\services\base\BaseActiveService;
 use yii2module\guide\domain\enums\GuidePermissionEnum;
 use yii2module\guide\domain\repositories\file\ArticleRepository;
 

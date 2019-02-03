@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\Url;
-use yii2lab\extension\yii\helpers\Html;
+use yii2rails\extension\yii\helpers\Html;
 
 ?>
 

@@ -8,7 +8,7 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii2mod\markdown\MarkdownEditor;
-use yii2lab\extension\markdown\widgets\Markdown;
+use yii2rails\extension\markdown\widgets\Markdown;
 
 $this->title = Yii::t('action', 'update');
 

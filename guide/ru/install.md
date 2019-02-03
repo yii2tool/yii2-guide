@@ -32,7 +32,7 @@ return [
 	'components' => [
 		// ...
 		'guide' => [
-			'class' => 'yii2lab\domain\Domain',
+			'class' => 'yii2rails\domain\Domain',
 			'path' => 'yii2module\guide\domain',
 			'repositories' => [
 				'project' => [

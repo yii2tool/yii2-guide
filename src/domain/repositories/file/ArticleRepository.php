@@ -4,11 +4,11 @@ namespace yii2module\guide\domain\repositories\file;
 
 use Yii;
 use yii\web\NotFoundHttpException;
-use yii2lab\domain\BaseEntity;
-use yii2lab\domain\data\Query;
-use yii2lab\domain\interfaces\repositories\CrudInterface;
-use yii2lab\domain\repositories\BaseRepository;
-use yii2lab\extension\yii\helpers\FileHelper;
+use yii2rails\domain\BaseEntity;
+use yii2rails\domain\data\Query;
+use yii2rails\domain\interfaces\repositories\CrudInterface;
+use yii2rails\domain\repositories\BaseRepository;
+use yii2rails\extension\yii\helpers\FileHelper;
 use yii2module\guide\domain\entities\ArticleEntity;
 use yii2module\guide\domain\helpers\ArticleSearchHelper;
 
@@ -88,7 +88,7 @@ class ArticleRepository extends BaseRepository implements CrudInterface {
 	/**
 	 * @param BaseEntity $entity
 	 *
-	 * @throws \yii2lab\domain\exceptions\UnprocessableEntityHttpException
+	 * @throws \yii2rails\domain\exceptions\UnprocessableEntityHttpException
 	 */
 	public function insert(BaseEntity $entity) {
 		// TODO: Implement insert() method.

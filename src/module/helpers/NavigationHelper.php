@@ -3,7 +3,7 @@
 namespace yii2module\guide\module\helpers;
 
 use Yii;
-use yii2lab\domain\BaseEntity;
+use yii2rails\domain\BaseEntity;
 use yii2mod\helpers\ArrayHelper;
 
 class NavigationHelper {

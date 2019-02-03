@@ -4,7 +4,7 @@
  * @var $collection array */
 
 use yii\widgets\Menu;
-use yii2lab\extension\web\helpers\Page;
+use yii2rails\extension\web\helpers\Page;
 use yii2module\guide\module\helpers\NavigationHelper;
 use yii2module\guide\module\helpers\ViewHelper;
 

@@ -3,7 +3,7 @@
 namespace yii2module\guide\domain\entities;
 
 use Yii;
-use yii2lab\domain\BaseEntity;
+use yii2rails\domain\BaseEntity;
 
 class ProjectEntity extends BaseEntity {
 

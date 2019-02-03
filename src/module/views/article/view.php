@@ -2,14 +2,14 @@
 
 /* @var $this yii\web\View */
 
-use yii2lab\extension\web\helpers\Page;
-use yii2lab\extension\yii\helpers\Html;
+use yii2rails\extension\web\helpers\Page;
+use yii2rails\extension\yii\helpers\Html;
 use yii2module\guide\domain\entities\ProjectEntity;
 use yii2module\guide\module\helpers\NavigationHelper;
-use yii2lab\extension\markdown\widgets\Markdown;
+use yii2rails\extension\markdown\widgets\Markdown;
 use yii2module\guide\domain\enums\GuidePermissionEnum;
-use yii2lab\extension\markdown\widgets\helpers\ArticleMenuHelper;
-use yii2lab\extension\markdown\widgets\helpers\MarkdownHelper;
+use yii2rails\extension\markdown\widgets\helpers\ArticleMenuHelper;
+use yii2rails\extension\markdown\widgets\helpers\MarkdownHelper;
 
 $this->title = $entity->title;
 

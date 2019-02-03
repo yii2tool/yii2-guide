@@ -4,7 +4,7 @@ namespace yii2module\guide\domain\entities;
 
 use Yii;
 use yii\helpers\Inflector;
-use yii2lab\domain\BaseEntity;
+use yii2rails\domain\BaseEntity;
 use yii2module\guide\domain\helpers\ArticleHelper;
 
 /**

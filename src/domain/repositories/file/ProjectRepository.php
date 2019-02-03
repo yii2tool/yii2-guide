@@ -3,7 +3,7 @@
 namespace yii2module\guide\domain\repositories\file;
 
 use yii\helpers\ArrayHelper;
-use yii2lab\extension\arrayTools\repositories\base\BaseActiveDiscRepository;
+use yii2rails\extension\arrayTools\repositories\base\BaseActiveDiscRepository;
 use yii2module\guide\domain\helpers\ProjectHelper;
 
 class ProjectRepository extends BaseActiveDiscRepository {
