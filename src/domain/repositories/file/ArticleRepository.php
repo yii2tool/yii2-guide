@@ -119,4 +119,9 @@ class ArticleRepository extends BaseRepository implements CrudInterface {
 	public function count(Query $query = null) {
 		// TODO: Implement count() method.
 	}
+
+	public function truncate()
+    {
+        // TODO: Implement truncate() method.
+    }
 }
