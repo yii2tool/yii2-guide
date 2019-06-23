@@ -1,18 +1,18 @@
 <?php
 
-namespace yii2module\guide\domain\services;
+namespace yii2tool\guide\domain\services;
 
 use Yii;
 use yii\data\ArrayDataProvider;
 use yii2rails\domain\BaseEntity;
 use yii2rails\domain\services\base\BaseActiveService;
-use yii2module\guide\domain\enums\GuidePermissionEnum;
-use yii2module\guide\domain\repositories\file\ArticleRepository;
+use yii2tool\guide\domain\enums\GuidePermissionEnum;
+use yii2tool\guide\domain\repositories\file\ArticleRepository;
 
 /**
  * Class ArticleService
  *
- * @package yii2module\guide\domain\services
+ * @package yii2tool\guide\domain\services
  *
  * @property ArticleRepository $repository
  */

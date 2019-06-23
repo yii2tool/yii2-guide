@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\guide\domain\helpers;
+namespace yii2tool\guide\domain\helpers;
 
 use yii\apidoc\helpers\IndexFileAnalyzer;
 

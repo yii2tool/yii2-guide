@@ -1,12 +1,12 @@
 <?php
 
-namespace yii2module\guide\module\controllers;
+namespace yii2tool\guide\module\controllers;
 
 use Yii;
 use yii\data\DataProviderInterface;
 use yii\helpers\Url;
 use yii\web\Controller;
-use yii2module\guide\module\forms\SearchForm;
+use yii2tool\guide\module\forms\SearchForm;
 
 class DefaultController extends Controller {
 	

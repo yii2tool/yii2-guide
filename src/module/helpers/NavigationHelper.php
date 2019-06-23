@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\guide\module\helpers;
+namespace yii2tool\guide\module\helpers;
 
 use Yii;
 use yii2rails\domain\BaseEntity;

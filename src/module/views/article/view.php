@@ -4,10 +4,10 @@
 
 use yii2rails\extension\web\helpers\Page;
 use yii2rails\extension\yii\helpers\Html;
-use yii2module\guide\domain\entities\ProjectEntity;
-use yii2module\guide\module\helpers\NavigationHelper;
+use yii2tool\guide\domain\entities\ProjectEntity;
+use yii2tool\guide\module\helpers\NavigationHelper;
 use yii2rails\extension\markdown\widgets\Markdown;
-use yii2module\guide\domain\enums\GuidePermissionEnum;
+use yii2tool\guide\domain\enums\GuidePermissionEnum;
 use yii2rails\extension\markdown\widgets\helpers\ArticleMenuHelper;
 use yii2rails\extension\markdown\widgets\helpers\MarkdownHelper;
 

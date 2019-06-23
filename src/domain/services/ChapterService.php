@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\guide\domain\services;
+namespace yii2tool\guide\domain\services;
 
 use Yii;
 use yii2rails\domain\services\base\BaseActiveService;

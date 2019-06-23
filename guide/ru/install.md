@@ -19,7 +19,7 @@ oGuideModify
 return [
 	'modules' => [
 		// ...
-		'guide' => 'class' => 'yii2module\guide\module\Module',
+		'guide' => 'class' => 'yii2tool\guide\module\Module',
 		// ...
 	],
 ];
@@ -33,7 +33,7 @@ return [
 		// ...
 		'guide' => [
 			'class' => 'yii2rails\domain\Domain',
-			'path' => 'yii2module\guide\domain',
+			'path' => 'yii2tool\guide\domain',
 			'repositories' => [
 				'project' => [
 					'class' => ActiveDiscRepository::class,

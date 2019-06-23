@@ -1,16 +1,16 @@
 <?php
 
-namespace yii2module\guide\domain\entities;
+namespace yii2tool\guide\domain\entities;
 
 use Yii;
 use yii\helpers\Inflector;
 use yii2rails\domain\BaseEntity;
-use yii2module\guide\domain\helpers\ArticleHelper;
+use yii2tool\guide\domain\helpers\ArticleHelper;
 
 /**
  * Class ArticleEntity
  *
- * @package yii2module\guide\domain\entities
+ * @package yii2tool\guide\domain\entities
  *
  * @property integer $id
  * @property string $content

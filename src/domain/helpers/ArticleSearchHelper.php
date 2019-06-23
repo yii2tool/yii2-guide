@@ -1,12 +1,12 @@
 <?php
 
-namespace yii2module\guide\domain\helpers;
+namespace yii2tool\guide\domain\helpers;
 
 use Yii;
 use yii2rails\extension\common\helpers\StringHelper;
 use yii2rails\extension\yii\helpers\FileHelper;
-use yii2module\guide\domain\entities\ArticleEntity;
-use yii2module\guide\domain\entities\ProjectEntity;
+use yii2tool\guide\domain\entities\ArticleEntity;
+use yii2tool\guide\domain\entities\ProjectEntity;
 use yii\helpers\ArrayHelper;
 
 class ArticleSearchHelper {

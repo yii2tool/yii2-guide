@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2module\guide\domain\repositories\file;
+namespace yii2tool\guide\domain\repositories\file;
 
 use yii\helpers\ArrayHelper;
 use yii2rails\extension\arrayTools\repositories\base\BaseActiveDiscRepository;
-use yii2module\guide\domain\helpers\ProjectHelper;
+use yii2tool\guide\domain\helpers\ProjectHelper;
 
 class ProjectRepository extends BaseActiveDiscRepository {
 

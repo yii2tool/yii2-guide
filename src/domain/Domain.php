@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\guide\domain;
+namespace yii2tool\guide\domain;
 
 use yii2rails\domain\enums\Driver;
 use yii2rails\domain\services\base\BaseActiveService;
@@ -8,8 +8,8 @@ use yii2rails\domain\services\base\BaseActiveService;
 /**
  * Class Domain
  * 
- * @package yii2module\guide\domain
- * @property-read \yii2module\guide\domain\interfaces\repositories\RepositoriesInterface $repositories
+ * @package yii2tool\guide\domain
+ * @property-read \yii2tool\guide\domain\interfaces\repositories\RepositoriesInterface $repositories
  */
 class Domain extends \yii2rails\domain\Domain {
 	

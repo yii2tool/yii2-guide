@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\guide\module\forms;
+namespace yii2tool\guide\module\forms;
 
 use Yii;
 use yii2rails\domain\base\Model;

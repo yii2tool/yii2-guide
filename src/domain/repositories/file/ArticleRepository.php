@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\guide\domain\repositories\file;
+namespace yii2tool\guide\domain\repositories\file;
 
 use Yii;
 use yii\web\NotFoundHttpException;
@@ -9,8 +9,8 @@ use yii2rails\domain\data\Query;
 use yii2rails\domain\interfaces\repositories\CrudInterface;
 use yii2rails\domain\repositories\BaseRepository;
 use yii2rails\extension\yii\helpers\FileHelper;
-use yii2module\guide\domain\entities\ArticleEntity;
-use yii2module\guide\domain\helpers\ArticleSearchHelper;
+use yii2tool\guide\domain\entities\ArticleEntity;
+use yii2tool\guide\domain\helpers\ArticleSearchHelper;
 
 class ArticleRepository extends BaseRepository implements CrudInterface {
 

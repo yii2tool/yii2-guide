@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\guide\module\helpers;
+namespace yii2tool\guide\module\helpers;
 
 class ViewHelper {
 

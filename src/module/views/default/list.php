@@ -5,8 +5,8 @@
 
 use yii\widgets\Menu;
 use yii2rails\extension\web\helpers\Page;
-use yii2module\guide\module\helpers\NavigationHelper;
-use yii2module\guide\module\helpers\ViewHelper;
+use yii2tool\guide\module\helpers\NavigationHelper;
+use yii2tool\guide\module\helpers\ViewHelper;
 
 $this->title = Yii::t('guide/main', 'title');
 

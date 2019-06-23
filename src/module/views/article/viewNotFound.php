@@ -4,8 +4,8 @@
 
 use yii\helpers\Html;
 use yii2lab\navigation\domain\widgets\Alert;
-use yii2module\guide\module\helpers\NavigationHelper;
-use yii2module\guide\domain\enums\GuidePermissionEnum;
+use yii2tool\guide\module\helpers\NavigationHelper;
+use yii2tool\guide\domain\enums\GuidePermissionEnum;
 
 $this->title = Yii::t('guide/article', 'title');
 $url = NavigationHelper::genUrl(NavigationHelper::URL_ARTICLE_UPDATE, compact('id'));
