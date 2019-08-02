@@ -3,7 +3,7 @@
 /* @var $this yii\web\View */
 
 use yii\helpers\Html;
-use yii2lab\navigation\domain\widgets\Alert;
+use yii2bundle\navigation\domain\widgets\Alert;
 use yii2tool\guide\module\helpers\NavigationHelper;
 use yii2tool\guide\domain\enums\GuidePermissionEnum;
 

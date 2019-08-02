@@ -7,7 +7,7 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii2rails\domain\exceptions\UnprocessableEntityHttpException;
 use yii2rails\extension\web\helpers\Behavior;
-use yii2lab\navigation\domain\widgets\Alert;
+use yii2bundle\navigation\domain\widgets\Alert;
 use yii2tool\guide\domain\entities\ArticleEntity;
 use yii2tool\guide\domain\enums\GuidePermissionEnum;
 use yii2tool\guide\module\forms\ArticleForm;
